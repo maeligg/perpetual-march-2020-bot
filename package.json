@@ -1,0 +1,16 @@
+{
+  "name": "perpetual-march-2020-bot",
+  "version": "1.0.0",
+  "description": "A Twitter bot posting today's date, from the month of March 2020",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Maël Brunet",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.3",
+    "dotenv": "^8.2.0",
+    "twitter-api-client": "^1.2.4"
+  }
+}
