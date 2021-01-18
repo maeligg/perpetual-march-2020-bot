@@ -1,6 +1,6 @@
 # Perpetual March 2020
 
-A Twitter bot posting today's date, from the month of March 2020. Available at https://twitter.com/march_2020_bot
+A Twitter bot posting today's date, from the month of March 2020, based on an original idea from [@logophage](https://twitter.com/logophage). Available at [@march_2020_bot](https://twitter.com/march_2020_bot)
 
 # Usage
 
