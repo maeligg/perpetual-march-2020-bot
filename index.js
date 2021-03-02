@@ -9,7 +9,7 @@ const twitterClient = new TwitterClient({
     accessTokenSecret: process.env.ACCESS_TOKEN_SECRET,
 });
 
-const status = `Today is March ${dayjs().diff('2020-03-01', 'days')}, 2020`;
+const status = `Today is March ${dayjs().diff('2020-03-01', 'days') + 1}, 2020`;
 
 twitterClient.tweets.statusesUpdate({status})
   .catch(err => console.log(err));
